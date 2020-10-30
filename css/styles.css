@@ -1,0 +1,212 @@
+ body {
+  font-family: "Montserrat";
+  margin: 0;
+} 
+h1,h2,h3,h4,h5{
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #615c5c;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  
+}
+
+.container-fluid{
+ padding-left: 0%;
+ padding-right: 0%;
+}
+#first_h1{
+ padding-right: 5%;
+ text-align: left;
+ font-family:Bebas Neue;
+ font-size: 100px;
+} 
+.title_box{
+ padding: 3%;
+
+}
+/* ----------------------Navbar -----------------------*/
+.navbar{
+ font-family: ubuntu;
+ padding:4% 5% 5%;
+}
+.navbar-nav > li{
+margin-left:20px;
+margin-right:20px;
+color: black;
+}
+.dropdown:hover .dropdown-menu {
+ display: block;
+}
+.dropdown-menu{
+background-color: transparent;
+border: transparent;
+border: none;
+}
+.nav_btn{
+  background-color: #ba812e;
+  color: #ffffff;
+}
+.dropdown-item:hover{
+color:gray;
+background-color:#eaf0f0 ;
+}
+/* --------------------Buttons----------------------- */
+.btns{
+font-family: 'PT Sans', sans-serif;
+background-color: #ba812e;
+color: #ffffff;
+padding: 10px 20px;
+font-size: 15px;
+
+}
+.btn:hover{
+color: #ffffff;
+}
+/* ---------------------Title section------------------ */
+#title{
+background-color: #eaf0f0;
+padding-bottom: 20%;
+}
+.Title-image{
+width:50%;
+right:100px;
+}
+#second_img{
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  width:60%;
+  z-index: 1;
+  padding-top: 7%;
+  
+  }
+/* -------------------Section 2------------------------ */
+#second_section{
+padding-top: 7%;
+padding-bottom: 7%;
+background-color: #fff;
+position: relative;
+}
+.second_sec_h2{
+padding: 7% 15%;
+color: #3b4044;
+}
+
+/* --------------------Values section -----------------*/
+.sub_heading{
+  color: #ba812e;
+  font-size: 25px;
+  padding-bottom: 3%;
+ 
+}
+.card-header{
+border-bottom: none;
+background-color: #fcf9f4;
+}
+.card{
+border: none;
+background-color: #fcf9f4;
+}
+.card-body{
+background-color: #fcf9f4;
+padding-left: 7%;
+padding-right: 28%;
+text-align: justify;
+}
+
+.values_list{
+  font-family: "Montserrat-Bold";
+padding: 7% 5%;
+background-color: #fcf9f4;
+}
+#sec3_img1{
+position: absolute;
+right: 10px;
+padding-top: 50px;
+z-index: 1;
+}
+/* ---------------------Services section------------------- */
+#services_patients{
+  padding:  7% 5%;
+ position: relative;
+ text-align: justify;
+}
+.service_col{
+  padding-top: 7% 5%;
+}
+.patients{
+  padding-top: 15%;
+}
+.p_service{
+  padding-bottom: 6%;
+}
+/* ------------------------Testimonials section------------*/
+#testimonials{
+ padding: 7% 15%; 
+background-color: #e9e4de;
+text-align: center;
+}
+.carousel-item{
+padding: 4% 20%;
+text-align: justify;
+}
+/* -------------------Questions------------------------ */
+#questions{
+  padding: 9% 20%;
+  text-align: center;
+}
+
+/* ----------------------Footer-------------------------*/
+#footer{
+  background-color:#ebecf1 ;
+  padding: 5% 5%;
+  
+}
+.footer_row{
+  padding-bottom: 40px;
+}
+
+hr{
+  background-color: #a6c4c5;
+  height: 1px;
+  
+}
+
+a{
+  color: #000000;
+  padding-bottom: 100px;
+}
+a:hover{
+  color: #ba812e;
+  text-decoration:none;
+} 
+#map{
+  background-color:#ebecf1 ;
+}
+
+.contact {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+}
+
+html,body{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  padding:0px;
+  overflow-x: hidden;
+ 
+}
+@media  (max-width: 1028px) {
+  #second_img {
+    position: static;
+ 
+  }
+ #sec3_img1{
+  position: static;
+ 
+ }
+}
